@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises Nav Bars</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container .one {
+            background-color: red;
+            display: inline-block;
+            margin: 0.4rem;
+            padding: 0.5rem;
+            outline-style: none;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0.5rem;
+            outline-style: none;
+            padding-inline-start: 0;
+        }
+
+        li {
+            background-color: yellow;
+            display: inline;
+            outline-style: none;
+            padding: 0.5rem;
+            border-radius: 5rem;
+        }
+
+        nav a {
+            color: black;
+        }
+
+        .container2 .two {
+            background-color: green;
+            display: inline-block;
+            width: 99%;
+            margin: 0.5rem;
+            padding: 0.1rem;
+            outline-style: none;
+        }
+
+        .center {
+            display: table;
+            margin: 0px auto;
+        }
+
+        .container3 .three {
+            background-color: rgb(231, 12, 231);
+            display: inline-block;
+            width: 99%;
+            margin: 0.4rem;
+            padding: 0.5rem;
+            outline-style: none;
+        }
+
+        .right {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <nav class="one">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="container2">
+        <nav class="two">
+            <ul>
+                <li class="center"><a href="#">click me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <header class="container3">
+        <nav class="three">
+            <ul class="right">
+                <li><a href="#">home</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">about</a></li>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+
+</html>
